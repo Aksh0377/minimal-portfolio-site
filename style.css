@@ -1,0 +1,129 @@
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.8rem; /* 18px */
+    font-weight: 400;
+    line-height: 1.4;
+    color: var(--main-white);
+}
+
+.main-section{
+    width: 100%;
+    height: 800px;
+    color: white;
+    background-image: url('assets/banner.jpg');
+    background-size: cover;
+    overflow: hidden;
+}
+.main-section-child{
+    background-color: rgba(0,0,0,0.5); /*dim the background*/
+    z-index: 10;
+}
+
+
+.main-section-text{
+   padding: 300px 0;
+    text-align: center;
+}
+
+.know-more-button{
+    border-radius: 5px;
+    font-size: 15px;
+    border-width: 2px;
+    border-color: greenyellow;
+    border-radius: 5px;
+    border-style: solid;
+    padding: 10px;
+    color: white;
+    
+}
+.technology-container{
+    text-align: center;
+    color: gray;
+    justify-content: center;
+    padding: 10px;
+}
+
+
+.projects-container{
+    text-align: center;
+    color: gray;
+    background:#f5f5f5;
+    justify-content: center;
+    padding: 10px;
+}
+
+.body-grid-technology{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.body-grid-projects{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item-technology{
+    text-align: center;
+    padding:15%;
+    margin: 10px;
+    background-color: yellowgreen;
+    color: white;
+    position: relative;
+}
+
+.grid-item-project{
+    text-align: center;
+    padding: 25%;
+    margin: 10px;
+    background-color: white;
+    justify-content: center;
+    color: gray;
+}
+
+.social-media-grid{
+    grid-template-columns: auto auto auto auto auto;
+    margin-top: 50px;
+    
+}
+
+.contact-info-section{
+    background-color: gray;
+    justify-content: center;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.social-media-grid-items{
+   margin: 25px 15px;
+   color: white;
+   font-size: 20px;
+   text-align: center;
+   padding: 30px;
+}
+
+.footer{
+    justify-content: center;
+    text-align: right;
+    padding: 20px;
+    background-color: gray;
+    color: white;
+    border: 2px;
+    border-top: greenyellow;
+    border-style: solid;
+    border-left: gray;
+    border-right: gray;
+    font-size: 1rem;
+
+}
+
+.bar{
+    width: 100px;
+    height: 6px;
+    display: block;
+    justify-content: center;
+    background-color: gray;
+    margin-left: 47%;
+    margin-bottom: 20px;
+}
+
